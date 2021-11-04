@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Zen Old Mincho", serif;
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    text-align: center;
+    --gold-: #f0a500;
+}
+#form-container {
+    width: 100%;
+    margin: 1rem auto 0 auto;
+}
+#title {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+span {
+    color: var(--gold-);
+    text-shadow: var(--gold-) 0.040em 0.060em 0.080em;
+
+}
+label.name, .email, .number {
+    font-size: 1.5rem;
+    color: #fff;
+}
+label {
+    color: #fff;
+    opacity: .7;
+}
+
+#description {
+    padding: 1em;
+    opacity: .5;
+    font-size: 1rem;
+}
+#form-container .img-part {
+    margin-bottom: -1rem;
+}
+
+img {
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+}
+
+#survey-form {
+    background-color: var(--gold-);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 50%;
+    margin: auto;
+    margin-top: -220px;
+    margin-bottom: 2.8rem;
+}
+.input-div {
+    display: grid;
+    padding: 1em;
+    overflow: hidden;
+
+}
+.input-div p {
+    margin-bottom: 0.5rem;
+    text-align: start;
+    font-size: 1.5em;
+    color: #fff;
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 0.5rem;
+}
+
+/* inputs */
+input#name, #email, #number {
+    max-width: 100%;
+    min-height: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    padding: 1em;
+    font-size: 1rem;
+}
+
+#radio, #checkbox, #yes, #no {
+    padding: 1rem 1rem;
+    background-color: #fff;
+    outline: none;
+    min-width: 1.8rem;
+    min-height: 1.8rem;
+    margin-left: auto;
+    border: none;
+}
+input[type='radio']:checked:after {
+     width: 18px;
+    height: 18px; 
+    border-radius: 15px;
+    top: 5px;
+    left: 5px;
+    position: relative; 
+    background-color: var(--gold-);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+::placeholder {
+    opacity: 40%;
+    font-family: "Zen Old Mincho", serif;
+}
+::selection {
+    color: #CF7500;
+}
+
+#dropdown {
+    text-align: start;
+    font-size: 1rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+textarea#comment {
+    min-width: max-content;
+    min-height: 100px;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 0.5em 0.8em;
+    font-size: 1.3em;
+    font-family: "Zen Old Mincho", serif;
+}
+
+button#submit {
+  background-color: #fff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  color: var(--gold-);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-self: center;
+  width: 70%;
+  padding: 1rem 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+}
+
+#submit:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.03);
+  color: #fff;
+}
+
+.submit:active {
+  transform: scale(1);
+}
+footer {
+    color: rgb(255, 172, 17);
+    margin-bottom: 1em;
+}
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  #submit {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+@media screen and (max-width: 2000px) {
+    #survey-form {
+        padding-top: 15%;
+    }
+}
+@media screen and (max-width: 1461px) {
+    #survey-form {
+        padding-top: 18%;
+    }
+    
+}
+@media screen and (max-width: 1280px) {
+    #survey-form {
+        padding-top: 17%;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    #survey-form {
+        padding-top: 19%;
+    }
+    
+}
+@media screen and (max-width: 1000px){
+    #survey-form {
+       padding-top: 23%;
+    }
+}
+@media screen and (max-width: 950px){
+    #survey-form {
+      width: 80%;
+    }
+    img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    #survey-form {
+        padding-top: 25%;
+     }
+}
+@media screen and (max-width: 878px) {
+    #survey-form {
+        padding-top: 25%;
+     }
+}
+@media screen and (max-width: 775px) {
+    #survey-form {
+        padding-top: 28%;
+     }
+}
+@media screen and (max-width: 680px) {
+    #survey-form {
+        padding-top: 30%;
+        width: 85%;
+     }
+     img {
+         width: 85%;
+     }
+     label {
+         font-size: 1em;
+         text-align: start;
+     }
+}
+@media screen and (max-width: 647px) {
+    #survey-form {
+        padding-top: 0;
+        margin-top: 0;
+       width: 95%;
+     }
+     img {
+         border-radius: 0;
+         width: 95%;
+     }
+}
+
+
