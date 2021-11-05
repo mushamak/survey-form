@@ -2,113 +2,117 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Survey Form</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <main id="form-container">
-    <h1 id="title"><span>F</span>riendship <span>S</span>urvey</h1>
-    <p id="description">meet real new friends, from your neighborhood or from around the world.</p>
-    <div class="img-part">
-      <img src="./happy_friends.jpg" width="50%" alt="">
-    </div>
-    <form action="" id="survey-form">
-      <div class="input-div">
-        <label class="name" for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required>
-      </div>
+    <main id="form-container">
+        <h1 id="title"><span>F</span>riendship <span>S</span>urvey</h1>
+        <p id="description">meet real new friends, from your neighborhood or from around the world.</p>
+        <div class="img-part">
+            <img src="./happy_friends.jpg" width="50%" alt="">
+        </div>
+        <form action="" id="survey-form">
+            <div class="input-div">
+                <label class="name" for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
 
-      <div class="input-div">
-        <label class="email" for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-      </div>
+            <div class="input-div">
+                <label class="email" for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
 
-      <div class="input-div">
-        <label  class="number" for="number">Age</label>
-        <input type="number" id="number" name="number" min="10" max="100" placeholder="Your age">
-      </div>
+            <div class="input-div">
+                <label class="number" for="number">Age</label>
+                <input type="number" id="number" name="number" min="10" max="100" placeholder="Your age">
+            </div>
 
-      <div class="input-div">
-        <p class="occupation">Which option best describes your current occupation?</p>
-        <select name="occupation" id="dropdown" required>
-          <option value="student">Student</option>
-          <option value="work">Businessman</option>
-          <option value="job">Full Time Job</option>
-          <option value="part-time">Part Time Job</option>
-          <option value="no-job">No Occupation</option>
-          <option value="other">Other</option>
-        </select>
+            <div class="input-div">
+                <p class="occupation">Which option best describes your current occupation?</p>
+                <select name="occupation" id="dropdown" required>
+                    <option value="student">Student</option>
+                    <option value="work">Businessman</option>
+                    <option value="job">Full Time Job</option>
+                    <option value="part-time">Part Time Job</option>
+                    <option value="no-job">No Occupation</option>
+                    <option value="other">Other</option>
+                </select>
 
-      </div>
-      <div class="input-div">
-        <p>How many friends do you have now?</p>
-        <label for="number-of-friends">Less than 3
-        <input id="radio"   type="radio" name="number-of-friends" value="less than 3">
-      </label>
-        <label for="number-of-friends">More than 6
-        <input  id="radio" type="radio" name="number-of-friends" value="more than 6">
-      </label>
-        <label for="number-of-friends">6-10
-        <input id="radio"  type="radio" name="number-of-friends" value="6-10">
-      </label>
-        <label for="number-of-friends">I don't know exactly
-        <input id="radio"  type="radio" name="number-of-friends" value="don't know">
-      </label>
-      </div>
+            </div>
+            <div class="input-div">
+                <p>How many friends do you have now?</p>
+                <label for="number-of-friends">Less than 3
+                    <input id="radio" type="radio" name="number-of-friends" value="less than 3">
+                </label>
+                <label for="number-of-friends">More than 6
+                    <input id="radio" type="radio" name="number-of-friends" value="more than 6">
+                </label>
+                <label for="number-of-friends">6-10
+                    <input id="radio" type="radio" name="number-of-friends" value="6-10">
+                </label>
+                <label for="number-of-friends">I don't know exactly
+                    <input id="radio" type="radio" name="number-of-friends" value="don't know">
+                </label>
+            </div>
 
-      <div class="input-div">
+            <div class="input-div">
 
-        <p>Why do you become friends with someone?</p>
-        <label for="">To hang out
-        <input id="checkbox" type="checkbox" name="reason" value="To-hang-out">
-      </label>
-        <label for="">Same hobbies
-        <input id="checkbox" type="checkbox" name="reason" value="same hobbies">
-      </label>
-        <label for="">Good personalities
-        <input id="checkbox"  type="checkbox" name="reason" value="good-personalities">
-      </label>
-        <label for="">Good looking (smart, rich, reputation etc.)
-        <input id="checkbox" type="checkbox" name="reason" value="To-hang-out">
-      </label>
-        <label for="">Other
-        <input id="checkbox" type="checkbox" name="reason" value="other">
-      </label>
-      </div>
+                <p>Why do you become friends with someone?</p>
+                <label for="">To hang out
+                    <input id="checkbox" type="checkbox" name="reason" value="To-hang-out">
+                </label>
+                <label for="">Same hobbies
+                    <input id="checkbox" type="checkbox" name="reason" value="same hobbies">
+                </label>
+                <label for="">Good personalities
+                    <input id="checkbox" type="checkbox" name="reason" value="good-personalities">
+                </label>
+                <label for="">Good looking (smart, rich, reputation etc.)
+                    <input id="checkbox" type="checkbox" name="reason" value="To-hang-out">
+                </label>
+                <label for="">Other
+                    <input id="checkbox" type="checkbox" name="reason" value="other">
+                </label>
+            </div>
 
-      <div class="input-div">
-        <p>Do you feel emotionally attached with your friends?</p>
-        <label for="yes">Yes
-        <input id="yes" type="radio" name="yes" value="yes">
-      </label>
-        <label for="no">No
-        <input id="no" type="radio" name="no" value="no">
-      </label>
-      </div>
+            <div class="input-div">
+                <p>Do you feel emotionally attached with your friends?</p>
+                <label for="yes">Yes
+                    <input id="yes" type="radio" name="yes-no-both" value="yes">
+                </label>
+                <label for="no">No
+                    <input id="no" type="radio" name="yes-no-both" value="no">
+                </label>
+                <label for="both">Sometimes
+                    <input id="both" type="radio" name="yes-no-both" value="both">
+                </label>
+            </div>
 
-      <div class="input-div">
-        <p>What do you share with your friends the most?</p>
-        <textarea name="textarea" id="comment" placeholder="Type here.."></textarea>
-      </div>
+            <div class="input-div">
+                <p>What do you share with your friends the most?</p>
+                <textarea name="textarea" id="comment" placeholder="Type here.."></textarea>
+            </div>
 
-      <div class="input-div">
-        <p>Tell us about yourself</p>
-        <textarea name="textarea" id="comment" placeholder="Type here.."></textarea>
-      </div>
+            <div class="input-div">
+                <p>Tell us about yourself</p>
+                <textarea name="textarea" id="comment" placeholder="Type here.."></textarea>
+            </div>
 
-      <div class="input-div">
-        <button id="submit" type="submit">Submit</button>
-      </div>
+            <div class="input-div">
+                <button id="submit" type="submit">Submit</button>
+            </div>
 
-    </form>
+        </form>
 
-  </main>
-<footer>Made by <span> <a href="https://mushamak.github.io/personal-webpage/" target="_blank">Musha</a></span></footer>
-
+    </main>
+    <footer>Made by <span> <a href="https://mushamak.github.io/personal-webpage/" target="_blank">Musha</a></span>
+    </footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>

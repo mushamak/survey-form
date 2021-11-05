@@ -89,7 +89,7 @@ input#name, #email, #number {
     font-size: 1rem;
 }
 
-#radio, #checkbox, #yes, #no {
+#radio, #checkbox, #yes, #no, #both{
     padding: 1rem 1rem;
     background-color: #fff;
     outline: none;
@@ -97,6 +97,7 @@ input#name, #email, #number {
     min-height: 1.8rem;
     margin-left: auto;
     border: none;
+    cursor: pointer;
 }
 input[type='radio']:checked:after {
      width: 18px;
